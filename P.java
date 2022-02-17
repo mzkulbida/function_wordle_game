@@ -21,7 +21,13 @@ public class P extends Function
     {
         return getScale() * (int) Math.pow(y, exp);
     }
-    public String toString(){
-        return getScale() + "*x^" + exp;
+    public String toString(String var){
+        String ret = "";
+        if(getScale() != 1)
+            ret += getScale() + "*";
+        ret += var;
+        if(exp != 1)
+            ret += "^" + exp;
+        return ret;
     }
 }

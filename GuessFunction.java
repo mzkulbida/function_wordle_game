@@ -22,7 +22,7 @@ public class GuessFunction
     public String toString(){
         String ret = "";
         for(Function f : fs){
-            ret += f.toString();
+            ret += f.toString("x");
             if(f != fs[fs.length-1])
                 ret += "+";
         }

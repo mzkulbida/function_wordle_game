@@ -20,7 +20,10 @@ public class Exp extends Function
     {
         return getScale() * (int) Math.pow(base, y);
     }
-    public String toString(){
-        return getScale() + "*" + base + "^x";
+    public String toString(String var){
+        String ret = "";
+        if(getScale() != 1)
+            ret += getScale() + "*";
+        return ret + base + "^" + var;
     }
 }
