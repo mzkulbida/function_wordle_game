@@ -10,7 +10,7 @@ public class GameRunner
 {
     public static void main(){
         Scanner in = new Scanner(System.in);
-        Function[] terms = {new Exp(3,2), new C(10)};
+        Function[] terms = {new Exp(1,2), new P(-1, 3)};
         GuessFunction g = new GuessFunction(terms);
         String function = g.toString();
         boolean guessed = false;
@@ -31,5 +31,8 @@ public class GameRunner
             numTries++;
             System.out.println("Incorrect.");
         }
+    }
+    public static boolean check(String a, String b){
+        return true;
     }
 }

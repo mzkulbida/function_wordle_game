@@ -2,13 +2,14 @@
 /**
  * Tests a function to be guessed
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Max Kulbida
+ * Date: 2/16/2022
  */
 public class GuessFunctionTester
 {
     public static void main(){
-        Function[] terms = {new P(2,2), new Exp(1,3), new C(10)};
+        //2*2^(2^x)... Yeah it'll grow fast
+        Function[] terms = {new Nested(2, new Exp(1, 2), new Exp(1,2))};
         GuessFunction f = new GuessFunction(terms);
         System.out.println("f(x) = " + f.toString());
         System.out.println("Test Values:");

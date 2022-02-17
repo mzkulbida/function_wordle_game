@@ -13,5 +13,5 @@ public class C extends Function
     }
     
     public int of(int y){return super.getScale();}
-    public String toString(){return "" + super.getScale();}
+    public String toString(String var){return "" + super.getScale();}
 }

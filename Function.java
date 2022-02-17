@@ -17,4 +17,5 @@ public abstract class Function
     public int getScale(){return scale;}
     
     public abstract int of(int y);
+    public abstract String toString(String var);
 }
