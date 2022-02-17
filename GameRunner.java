@@ -8,7 +8,7 @@
 import java.util.Scanner;
 public class GameRunner
 {
-    public static void main(){
+    public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         Function[] terms = {new Exp(1,2), new P(-1, 3)};
         GuessFunction g = new GuessFunction(terms);
@@ -28,11 +28,11 @@ public class GameRunner
                 System.out.println("Congrats on guessing the mystery function! It took " + numTries + " attempts.");
                 break;
             }
+            if(guess.equalsIgnoreCase("quit"))
+            	break;
             numTries++;
             System.out.println("Incorrect.");
         }
-    }
-    public static boolean check(String a, String b){
-        return true;
+        in.close();
     }
 }
