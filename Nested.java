@@ -2,7 +2,7 @@
 /**
  * A nested function g(f(x)). Not very practical because of how fast functions of this nature grow if restricted to polynomials and exponentials
  *
- * @author Max Kulbida
+ * @author mzkulbida
  * Date: 2/16/2022
  */
 public class Nested extends Function

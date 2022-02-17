@@ -2,7 +2,7 @@
 /**
  * Implementation for the game itself
  *
- * @author Max Kulbida
+ * @author mzkulbida
  * @version (a version number or a date)
  */
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class GameRunner
 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        Function[] terms = {new Exp(1,2), new P(-1, 3)};
+        Function[] terms = {new P(3,2), new C(12)};
         GuessFunction g = new GuessFunction(terms);
         String function = g.toString();
         boolean guessed = false;

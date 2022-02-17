@@ -2,7 +2,7 @@
 /**
  * Constant function
  * 
- * @author Max Kulbida
+ * @author mzkulbida
  * Date: 2/15/2022
  */
 public class C extends Function

@@ -2,7 +2,7 @@
 /**
  * Abstract superclass for a single polynomial, exponential, constant, etc. term
  *
- * @author Max Kulbida
+ * @author mzkulbida
  * Date: 2/15/2022
  */
 public abstract class Function

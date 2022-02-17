@@ -2,7 +2,7 @@
 /**
  * Describes a mathematical function consisting of the sum of several terms
  *
- * @author Max Kulbida
+ * @author mzkulbida
  * Date: 2/15/2022
  */
 public class GuessFunction

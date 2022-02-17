@@ -2,12 +2,12 @@
 /**
  * Tests a function to be guessed
  *
- * @author Max Kulbida
+ * @author mzkulbida
  * Date: 2/16/2022
  */
 public class GuessFunctionTester
 {
-    public static void main(){
+    public static void main(String[] args){
         //2*2^(2^x)... Yeah it'll grow fast
         Function[] terms = {new Nested(2, new Exp(1, 2), new Exp(1,2))};
         GuessFunction f = new GuessFunction(terms);

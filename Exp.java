@@ -2,7 +2,7 @@
 /**
  * Exponential function of the form c*n^x
  *
- * @author Max Kulbida
+ * @author mzkulbida
  * Date: 2/15/2022
  */
 public class Exp extends Function

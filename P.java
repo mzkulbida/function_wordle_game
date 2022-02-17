@@ -2,7 +2,7 @@
 /**
  * Polynomial function of the form c*x^n
  *
- * @author Max Kulbida
+ * @author mzkulbida
  * Date: 2/15/2022
  */
 public class P extends Function
